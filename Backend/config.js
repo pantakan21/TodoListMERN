@@ -1,2 +1,0 @@
-export const PORT = process.env.PORT || 8080;
-export const mongoDBURL = process.env.MONGO_DB_URL || "mongodb+srv://pantakan219:1234@cluster0.sfp4g.mongodb.net/todos-collection?retryWrites=true&w=majority&appName=Cluster0";
