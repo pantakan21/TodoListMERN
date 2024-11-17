@@ -21,3 +21,8 @@ app.get("/", (request, response) => {
     console.log(request);
     return response.status(200).send("Welcome to my website");
 });
+
+
+        app.listen(8080, () => {
+            console.log(`App is listening to port : 8008`);
+        });
